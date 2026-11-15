@@ -1,0 +1,13 @@
+# 运行时配置与数据（永不入库）
+config.env
+web_config.json
+users.db
+tokens.db
+stats.db
+logs/
+data/
+state/
+reports/
+reports_stocks/
+__pycache__/
+*.pyc
