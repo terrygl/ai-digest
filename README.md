@@ -9,6 +9,15 @@ on disk.
 > Zero third-party Python dependencies · runs on a 1-core/512MB VPS ·
 > ~1 LLM call per day · total cost ≈ $1/month.
 
+## Related: [etf-radar](etf-radar/) — daily ETF/stock trend radar
+
+Same stack, same philosophy (stdlib-only, tiny VPS, config-driven): a morning
+report (yesterday's close + today's predicted price/band/probability with
+factor attribution), hourly intraday checks against the day's band, a Saturday
+weekly review, and a password-protected dashboard. Predictions are stored and
+auto-verified against the next close, so hit rates are tracked honestly.
+See [etf-radar/README.md](etf-radar/README.md).
+
 ## Sample output
 
 ```markdown
